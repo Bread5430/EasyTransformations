@@ -1,0 +1,19 @@
+<factions LoadPriority="1000">
+    <faction Name="Chavvah" DisplayName="Chavvah, the Tree of Life" Old="false" FormatWithArticle="false" Plural="false" InitialPlayerReputation="0" PositiveSound="Sounds/Reputation/sfx_reputation_chavvah_positive" NegativeSound="Sounds/Reputation/sfx_reputation_chavvah_negative" HistoricalSignificance="5" EmblemTile="Terrain/sw_chavvah_worldmap.bmp" EmblemTileColor="m" EmblemDetailColor="Y" Load="merge">
+    <feeling About="Beasts" Value="-50"/>
+    <feeling About="Girsh" Value="-100"/>
+    <feeling About="Templar" Value="-100"/>
+    <feeling About="*" Value="0"/>
+    <waterritual Skill="Nonlinearity_Tomorrowful" Recipe="BRDCrystalDelight" RecipeText="Would you share the favorite dish of the entities of Chavvah?" RecipeGenotype="!True Kin"/>
+    <interests>
+    <interest Tags="oddity" WillBuy="true" WillSell="false"/>
+    <interest Tags="Ptoh" WillBuy="true" WillSell="false"/>
+    <interest Tags="moonstair" WillBuy="false" WillSell="true"/>
+    <interest Tags="sultan" WillBuy="false" WillSell="false"/>
+    </interests>
+    <factionworshipattitudes>
+    <factionworshipattitude Name="Chavvah" Attitude="0"/>
+    <factionworshipattitude Name="Entropic" Attitude="-100"/>
+    </factionworshipattitudes>
+    </faction>
+</factions>
