@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>  
+  <object Name="Electric Snail Shell" Inherits="BaseHelmet" Load="Merge">
+    <part Name="Armor" AV="2" DV="-1" ToHit="-1" WornOn="Head" />
+    <part Name="Render" DisplayName="electric snail shell" RenderString="]" ColorString="&amp;B" DetailColor="W" Tile="Items/sw_snail_shell.bmp" />
+    <part Name="Commerce" Value="25" />
+    <part Name="Description" Short="A spiral cavemouth of xanthous shell armors the head while only minorly impairing vision." />
+    <part Name="Physics" Weight="8" Organic="true" />
+    <tag Name="Tier" Value="3" />
+	  <tag Name="EquipSound" Value="sfx_equip_armor_organic" />
+    <part Name="AddsRep" Faction="Mollusks" Value="400" />
+    <tag Name="DynamicObjectsTable:Headwear" />    
+  </object>
+</objects>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mods>
+  <mod Part="ModSnailEncrusted" Tables="" Rarity="R" TinkerTier="2" TinkerDisplayName="snail-encrusted" TinkerAllowed="false" Value="1.2" TinkerCategory="armor" Description="Scaled: This item grants the wearer +250 reputation with mollusks." Load="merge"/>
+  <mod Part="ModBRDSnailEncrusted" Tables="GloveMods,GauntletMods,HeadwearMods,BodyMods,CloakMods,ShieldMods,BootMods,TreadAccessoryMods,ExoskeletonMods" Rarity="R" TinkerTier="2" TinkerDisplayName="snail-encrusted" TinkerAllowed="false" Value="1.2" TinkerCategory="armor" Description="Scaled: This item grants the wearer +250 reputation with mollusks." />
+</mods>
